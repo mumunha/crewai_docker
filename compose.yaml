@@ -1,0 +1,7 @@
+services:
+  crewai_docker:
+    image: techmumus/crewai:0.1.0
+    ports:
+      - 7860:7860
+    volumes:
+      - ./app:/app
